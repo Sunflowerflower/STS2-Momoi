@@ -1,0 +1,22 @@
+{
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.aromaPrinciple": "[sine][color=#D95C97]A writer for the Game Development Club who loves games.[/color][/sine]",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.banter.alive.endTurnPing": "Turn complete.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.banter.dead.endTurnPing": "I am out for now.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.cardsModifierDescription": "Template Character cards can now appear in rewards and shops.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.cardsModifierTitle": "Template Cards",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.defeatMessage": "The template still needs a little tuning.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.description": "The Game Development Club's writer, who loves games.\nPerhaps she really can become the King of Games.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.eventDeathPrevention": "Template Character keeps going.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.flavor": "Perhaps she really can become the King of Games.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.goldMonologue": "This gold is enough to start testing.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.possessiveAdjective": "her",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.pronounObject": "her",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.pronounPossessive": "hers",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.pronounSubject": "she",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.selectMessage": "The Game Development Club's writer, who loves games.\nPerhaps she really can become the King of Games.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.title": "Momoi",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.titleObject": "Momoi",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.unlockText": "Complete a run as [pink]{Prerequisite}[/pink] to unlock this character.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.victoryMessage": "Template verification complete.",
+  "STS2_MOMOI_CHARACTER_STS2_MOMOI_CHARACTER.bestiaryQuote": "Bestiary entry: her taste in games remains a mystery."
+}

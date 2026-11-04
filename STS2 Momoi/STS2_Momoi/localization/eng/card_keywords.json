@@ -1,0 +1,15 @@
+{
+  "PERIOD": ".",
+  "STS2_MOMOI_KEYWORD_GAME_CARD.title": "Game Card",
+  "STS2_MOMOI_KEYWORD_GAME_CARD.description": "Counts as a Minigame card, but is never added during combat as one.",
+  "STS2_MOMOI_KEYWORD_GAMECARD.title": "Game Card",
+  "STS2_MOMOI_KEYWORD_GAMECARD.description": "Counts as a Minigame card, but is never added during combat as one.",
+  "STS2_MOMOI_KEYWORD_MINIGAME_CARD.title": "Minigame Card",
+  "STS2_MOMOI_KEYWORD_MINIGAME_CARD.description": "This card is a Minigame card.",
+  "STS2_MOMOI_KEYWORD_MINIGAMECARD.title": "Minigame Card",
+  "STS2_MOMOI_KEYWORD_MINIGAMECARD.description": "This card is a Minigame card.",
+  "STS2_MOMOI_KEYWORD_SUPPORT_CARD.title": "Support Card",
+  "STS2_MOMOI_KEYWORD_SUPPORT_CARD.description": "This card is a Support Card.",
+  "STS2_MOMOI_KEYWORD_SUPPORTCARD.title": "Support Card",
+  "STS2_MOMOI_KEYWORD_SUPPORTCARD.description": "This card is a Support Card."
+}

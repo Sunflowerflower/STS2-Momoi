@@ -1,0 +1,3 @@
+('打击', 'ONLY-IN-JSON')
+('方块', 'cost', '', None)
+('方块', 'costUp', '', None)

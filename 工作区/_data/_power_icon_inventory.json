@@ -1,0 +1,1229 @@
+{
+ "powers": [
+  {
+   "cls": "AsunaGuardPower",
+   "key": "STS2_MOMOI_POWER_ASUNA_GUARD_POWER",
+   "title": "幸运儿的祝福",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Default",
+   "icon": "asuna_guard_power.png",
+   "size": 65917,
+   "dup": 2,
+   "file": "Cards\\AssistCards2.cs",
+   "unused": false
+  },
+  {
+   "cls": "BurnPower",
+   "key": "STS2_MOMOI_POWER_BURN_POWER",
+   "title": "灼烧",
+   "type": "Debuff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "burn_power.png",
+   "size": 53455,
+   "dup": 2,
+   "file": "Powers\\BurnPower.cs",
+   "unused": false
+  },
+  {
+   "cls": "BurnTurnsPower",
+   "key": "STS2_MOMOI_POWER_BURN_TURNS_POWER",
+   "title": "灼烧·剩余回合",
+   "type": "Debuff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "burn_turns_power.png",
+   "size": 35451,
+   "dup": 2,
+   "file": "Powers\\BurnPower.cs",
+   "unused": false
+  },
+  {
+   "cls": "CnCTrackerPower",
+   "key": "STS2_MOMOI_POWER_CN_C_TRACKER_POWER",
+   "title": "C&C援护进度",
+   "type": "?",
+   "stack": "?",
+   "inst": "Default",
+   "icon": "cnc_tracker_power.png",
+   "size": 103313,
+   "dup": 2,
+   "file": "Cards\\AssistCards2.cs",
+   "unused": false
+  },
+  {
+   "cls": "ConceptShieldPower",
+   "key": "STS2_MOMOI_POWER_CONCEPT_SHIELD_POWER",
+   "title": "构想之盾",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "concept_shield_power.png",
+   "size": 49690,
+   "dup": 2,
+   "file": "Cards\\ConceptFlowCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "ConceptSpearPower",
+   "key": "STS2_MOMOI_POWER_CONCEPT_SPEAR_POWER",
+   "title": "构想之矛",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "concept_spear_power.png",
+   "size": 34850,
+   "dup": 2,
+   "file": "Cards\\ConceptFlowCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "CreativeTastePower",
+   "key": "STS2_MOMOI_POWER_CREATIVE_TASTE_POWER",
+   "title": "创造性品味",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "creative_taste_power.png",
+   "size": 71813,
+   "dup": 4,
+   "file": "Cards\\MinigameFlowCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "CreativeTasteUpgradedPower",
+   "key": "STS2_MOMOI_POWER_CREATIVE_TASTE_UPGRADED_POWER",
+   "title": "创造性品味",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "creative_taste_power.png",
+   "size": 71813,
+   "dup": 4,
+   "file": "Cards\\MinigameFlowCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "CyclicNarrativePower",
+   "key": "STS2_MOMOI_POWER_CYCLIC_NARRATIVE_POWER",
+   "title": "循环叙事",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Default",
+   "icon": "cyclic_narrative_power.png",
+   "size": 39577,
+   "dup": 2,
+   "file": "Cards\\NewCardsBatch.cs",
+   "unused": false
+  },
+  {
+   "cls": "DarkPsychologyPower",
+   "key": "STS2_MOMOI_POWER_DARK_PSYCHOLOGY_POWER",
+   "title": "暗黑心理学",
+   "type": "Debuff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "dark_psychology_power.png",
+   "size": 51780,
+   "dup": 2,
+   "file": "Cards\\DarkPsychology.cs",
+   "unused": false
+  },
+  {
+   "cls": "DevGreenPower",
+   "key": "STS2_MOMOI_POWER_DEV_GREEN_POWER",
+   "title": "开发者协同：绿",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "dev_green_power.png",
+   "size": 32169,
+   "dup": 2,
+   "file": "Cards\\RemainingSpecialCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "DevSecretsPower",
+   "key": "STS2_MOMOI_POWER_DEV_SECRETS_POWER",
+   "title": "开发秘籍",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "dev_secrets_power.png",
+   "size": 47654,
+   "dup": 2,
+   "file": "Cards\\RemainingSpecialCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "DualBladeMomoiPower",
+   "key": "STS2_MOMOI_POWER_DUAL_BLADE_MOMOI_POWER",
+   "title": "双刀王小桃",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "dual_blade_momoi_power.png",
+   "size": 50880,
+   "dup": 4,
+   "file": "Cards\\ReworkBatch.cs",
+   "unused": false
+  },
+  {
+   "cls": "DualBladeMomoiUpgradedPower",
+   "key": "STS2_MOMOI_POWER_DUAL_BLADE_MOMOI_UPGRADED_POWER",
+   "title": "双刀王小桃",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "dual_blade_momoi_power.png",
+   "size": 50880,
+   "dup": 4,
+   "file": "Cards\\ReworkBatch.cs",
+   "unused": false
+  },
+  {
+   "cls": "EngineeringDeptAidPower",
+   "key": "STS2_MOMOI_POWER_ENGINEERING_DEPT_AID_POWER",
+   "title": "工程部的援助",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Default",
+   "icon": "engineering_dept_aid_power.png",
+   "size": 57442,
+   "dup": 2,
+   "file": "Cards\\AssistCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "FellToSecondTierPower",
+   "key": "STS2_MOMOI_POWER_FELL_TO_SECOND_TIER_POWER",
+   "title": "掉到二档了。。。",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "fell_to_second_tier_power.png",
+   "size": 41770,
+   "dup": 2,
+   "file": "Cards\\RemainingCards2.cs",
+   "unused": false
+  },
+  {
+   "cls": "FirepowerPower",
+   "key": "STS2_MOMOI_POWER_FIREPOWER_POWER",
+   "title": "火力",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "firepower_power.png",
+   "size": 74603,
+   "dup": 2,
+   "file": "Powers\\FirepowerPower.cs",
+   "unused": false
+  },
+  {
+   "cls": "FlameAttachPower",
+   "key": "STS2_MOMOI_POWER_FLAME_ATTACH_POWER",
+   "title": "火焰附加",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "flame_attach_power.png",
+   "size": 73020,
+   "dup": 2,
+   "file": "Cards\\FlameAttach.cs",
+   "unused": false
+  },
+  {
+   "cls": "FocusPower",
+   "key": "STS2_MOMOI_POWER_FOCUS_POWER",
+   "title": "专注",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "focus_power.png",
+   "size": 79981,
+   "dup": 2,
+   "file": "Cards\\RemainingCards3.cs",
+   "unused": false
+  },
+  {
+   "cls": "GameKingFormPower",
+   "key": "STS2_MOMOI_POWER_GAME_KING_FORM_POWER",
+   "title": "游戏王形态",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "game_king_form_power.png",
+   "size": 79825,
+   "dup": 2,
+   "file": "Cards\\RemainingCards3.cs",
+   "unused": false
+  },
+  {
+   "cls": "HelpFromManyPower",
+   "key": "STS2_MOMOI_POWER_HELP_FROM_MANY_POWER",
+   "title": "得道多助",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "help_from_many_power.png",
+   "size": 43460,
+   "dup": 4,
+   "file": "Cards\\RemainingCards3.cs",
+   "unused": false
+  },
+  {
+   "cls": "HelpFromManyUpgradedPower",
+   "key": "STS2_MOMOI_POWER_HELP_FROM_MANY_UPGRADED_POWER",
+   "title": "得道多助",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "help_from_many_power.png",
+   "size": 43460,
+   "dup": 4,
+   "file": "Cards\\RemainingCards3.cs",
+   "unused": false
+  },
+  {
+   "cls": "InspirationPower",
+   "key": "STS2_MOMOI_POWER_INSPIRATION_POWER",
+   "title": "灵感爆发",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "inspiration_power.png",
+   "size": 73132,
+   "dup": 4,
+   "file": "Cards\\RemainingCards3.cs",
+   "unused": false
+  },
+  {
+   "cls": "InspirationUpgradedPower",
+   "key": "STS2_MOMOI_POWER_INSPIRATION_UPGRADED_POWER",
+   "title": "灵感爆发",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "inspiration_power.png",
+   "size": 73132,
+   "dup": 4,
+   "file": "Cards\\RemainingCards3.cs",
+   "unused": false
+  },
+  {
+   "cls": "KarinFinishPower",
+   "key": "STS2_MOMOI_POWER_KARIN_FINISH_POWER",
+   "title": "花凛的援护",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Default",
+   "icon": "karin_finish_power.png",
+   "size": 27697,
+   "dup": 2,
+   "file": "Cards\\AssistCards2.cs",
+   "unused": false
+  },
+  {
+   "cls": "KotamaStrengthPower",
+   "key": "STS2_MOMOI_POWER_KOTAMA_STRENGTH_POWER",
+   "title": "力量（本回合）",
+   "type": "?",
+   "stack": "?",
+   "inst": "Default",
+   "icon": null,
+   "size": 0,
+   "dup": 0,
+   "file": "Cards\\AssistCards2.cs",
+   "unused": false
+  },
+  {
+   "cls": "LearnByDoingPower",
+   "key": "STS2_MOMOI_POWER_LEARN_BY_DOING_POWER",
+   "title": "日复一日，必有精进",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "learn_by_doing_power.png",
+   "size": 37069,
+   "dup": 2,
+   "file": "Cards\\RemainingSpecialCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "MaidWeaponPower",
+   "key": "STS2_MOMOI_POWER_MAID_WEAPON_POWER",
+   "title": "虚拟女仆武器",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Instanced",
+   "icon": "maid_weapon_power.png",
+   "size": 36245,
+   "dup": 4,
+   "file": "Cards\\ReworkBatch.cs",
+   "unused": false
+  },
+  {
+   "cls": "MaidWeaponUpgradedPower",
+   "key": "STS2_MOMOI_POWER_MAID_WEAPON_UPGRADED_POWER",
+   "title": "虚拟女仆武器",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Instanced",
+   "icon": "maid_weapon_power.png",
+   "size": 36245,
+   "dup": 4,
+   "file": "Cards\\ReworkBatch.cs",
+   "unused": false
+  },
+  {
+   "cls": "MinesweeperPower",
+   "key": "STS2_MOMOI_POWER_MINESWEEPER_POWER",
+   "title": "扫雷",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "minesweeper_power.png",
+   "size": 40250,
+   "dup": 2,
+   "file": "Cards\\RemainingCards4.cs",
+   "unused": false
+  },
+  {
+   "cls": "MomentumBreakPower",
+   "key": "STS2_MOMOI_POWER_MOMENTUM_BREAK_POWER",
+   "title": "破势",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Default",
+   "icon": "momentum_break_power.png",
+   "size": 34085,
+   "dup": 2,
+   "file": "Cards\\RemainingCards2.cs",
+   "unused": false
+  },
+  {
+   "cls": "MontagePower",
+   "key": "STS2_MOMOI_POWER_MONTAGE_POWER",
+   "title": "蒙太奇",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "montage_power.png",
+   "size": 65620,
+   "dup": 2,
+   "file": "Cards\\ReworkBatch.cs",
+   "unused": false
+  },
+  {
+   "cls": "MyTurnPower",
+   "key": "STS2_MOMOI_POWER_MY_TURN_POWER",
+   "title": "额外回合",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "my_turn_power.png",
+   "size": 48125,
+   "dup": 2,
+   "file": "Cards\\RemainingCards3.cs",
+   "unused": false
+  },
+  {
+   "cls": "NoProblemPower",
+   "key": "STS2_MOMOI_POWER_NO_PROBLEM_POWER",
+   "title": "没问题……吗？",
+   "type": "Debuff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "no_problem_power.png",
+   "size": 75520,
+   "dup": 2,
+   "file": "Cards\\CommonAttackCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "PacManPower",
+   "key": "STS2_MOMOI_POWER_PAC_MAN_POWER",
+   "title": "吃豆人",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "pac_man_power.png",
+   "size": 58655,
+   "dup": 2,
+   "file": "Cards\\RemainingCards5.cs",
+   "unused": false
+  },
+  {
+   "cls": "ParkourPower",
+   "key": "STS2_MOMOI_POWER_PARKOUR_POWER",
+   "title": "跑酷",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "parkour_power.png",
+   "size": 39102,
+   "dup": 2,
+   "file": "Cards\\RemainingCards4.cs",
+   "unused": false
+  },
+  {
+   "cls": "PlantForeshadowPower",
+   "key": "STS2_MOMOI_POWER_PLANT_FORESHADOW_POWER",
+   "title": "埋下伏笔",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "plant_foreshadow_power.png",
+   "size": 96870,
+   "dup": 2,
+   "file": "Cards\\NewCardsBatch.cs",
+   "unused": false
+  },
+  {
+   "cls": "PlantsNextTurnPower",
+   "key": "STS2_MOMOI_POWER_PLANTS_NEXT_TURN_POWER",
+   "title": "植物大战僵尸",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "plants_next_turn_power.png",
+   "size": 114304,
+   "dup": 2,
+   "file": "Cards\\RemainingCards5.cs",
+   "unused": false
+  },
+  {
+   "cls": "PostQuestPower",
+   "key": "STS2_MOMOI_POWER_POST_QUEST_POWER",
+   "title": "发布委托",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "post_quest_power.png",
+   "size": 61111,
+   "dup": 2,
+   "file": "Cards\\MinigameFlowCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "RallyAgainPower",
+   "key": "STS2_MOMOI_POWER_RALLY_AGAIN_POWER",
+   "title": "重整旗鼓",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "rally_again_power.png",
+   "size": 43336,
+   "dup": 2,
+   "file": "Cards\\RemainingCards3.cs",
+   "unused": false
+  },
+  {
+   "cls": "RankUpPower",
+   "key": "STS2_MOMOI_POWER_RANK_UP_POWER",
+   "title": "终于上一档了！",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Instanced",
+   "icon": "rank_up_power.png",
+   "size": 45170,
+   "dup": 2,
+   "file": "Cards\\RemainingCards2.cs",
+   "unused": false
+  },
+  {
+   "cls": "RepeatMovePower",
+   "key": "STS2_MOMOI_POWER_REPEAT_MOVE_POWER",
+   "title": "赖招复读",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Instanced",
+   "icon": "repeat_move_power.png",
+   "size": 83949,
+   "dup": 2,
+   "file": "Cards\\ReworkBatch.cs",
+   "unused": false
+  },
+  {
+   "cls": "RhythmGamePower",
+   "key": "STS2_MOMOI_POWER_RHYTHM_GAME_POWER",
+   "title": "节奏游戏！",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "rhythm_game_power.png",
+   "size": 41441,
+   "dup": 2,
+   "file": "Cards\\RemainingCards5.cs",
+   "unused": false
+  },
+  {
+   "cls": "RolePlayPower",
+   "key": "STS2_MOMOI_POWER_ROLE_PLAY_POWER",
+   "title": "角色扮演",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "role_play_power.png",
+   "size": 59468,
+   "dup": 2,
+   "file": "Cards\\MultiplayerCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "ShmupPower",
+   "key": "STS2_MOMOI_POWER_SHMUP_POWER",
+   "title": "打灰机",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "shmup_power.png",
+   "size": 64157,
+   "dup": 2,
+   "file": "Cards\\RemainingCards4.cs",
+   "unused": false
+  },
+  {
+   "cls": "ShowMyStrengthPower",
+   "key": "STS2_MOMOI_POWER_SHOW_MY_STRENGTH_POWER",
+   "title": "见识下我的实力吧",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Instanced",
+   "icon": "show_my_strength_power.png",
+   "size": 16300,
+   "dup": 2,
+   "file": "Cards\\RemainingSpecialCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "SnakeGamePower",
+   "key": "STS2_MOMOI_POWER_SNAKE_GAME_POWER",
+   "title": "贪吃蛇",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Default",
+   "icon": "snake_game_power.png",
+   "size": 53097,
+   "dup": 2,
+   "file": "Cards\\RemainingCards4.cs",
+   "unused": false
+  },
+  {
+   "cls": "SpearShieldPower",
+   "key": "STS2_MOMOI_POWER_SPEAR_SHIELD_POWER",
+   "title": "矛与盾",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "spear_shield_power.png",
+   "size": 62010,
+   "dup": 2,
+   "file": "Cards\\ConceptFlowCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "TetrisFullHandPower",
+   "key": "STS2_MOMOI_POWER_TETRIS_FULL_HAND_POWER",
+   "title": "满手牌结算",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Instanced",
+   "icon": "tetris_full_hand_power.png",
+   "size": 14876,
+   "dup": 2,
+   "file": "Cards\\RemainingCards5.cs",
+   "unused": false
+  },
+  {
+   "cls": "VeritasTrackerPower",
+   "key": "STS2_MOMOI_POWER_VERITAS_TRACKER_POWER",
+   "title": "真理部的协助",
+   "type": "?",
+   "stack": "?",
+   "inst": "Default",
+   "icon": "veritas_tracker_power.png",
+   "size": 91804,
+   "dup": 2,
+   "file": "Cards\\AssistCards2.cs",
+   "unused": false
+  },
+  {
+   "cls": "WatchOutPower",
+   "key": "STS2_MOMOI_POWER_WATCH_OUT_POWER",
+   "title": "当心误射",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "watch_out_power.png",
+   "size": 39046,
+   "dup": 2,
+   "file": "Cards\\WatchOut.cs",
+   "unused": false
+  },
+  {
+   "cls": "WinEnergyPower",
+   "key": "STS2_MOMOI_POWER_WIN_ENERGY_POWER",
+   "title": "能量保留",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Default",
+   "icon": "win_energy_power.png",
+   "size": 47562,
+   "dup": 2,
+   "file": "Cards\\RemainingSpecialCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "YoshimiRepeatPower",
+   "key": "STS2_MOMOI_POWER_YOSHIMI_REPEAT_POWER",
+   "title": "\"雷酱\"炮台支援",
+   "type": "Buff",
+   "stack": "Single",
+   "inst": "Default",
+   "icon": "yoshimi_repeat_power.png",
+   "size": 33786,
+   "dup": 2,
+   "file": "Cards\\AssistCards.cs",
+   "unused": false
+  },
+  {
+   "cls": "YuzuEscortPower",
+   "key": "STS2_MOMOI_POWER_YUZU_ESCORT_POWER",
+   "title": "柚子护航",
+   "type": "Buff",
+   "stack": "Counter",
+   "inst": "Default",
+   "icon": "yuzu_escort_power.png",
+   "size": 29632,
+   "dup": 2,
+   "file": "Cards\\YuzuEscort.cs",
+   "unused": false
+  }
+ ],
+ "unreferenced": [],
+ "dup_groups": {
+  "1420b4c83c5d0ed7444b1693f4238125": [
+   [
+    "EngineeringDeptAidPower/icon",
+    57442
+   ],
+   [
+    "EngineeringDeptAidPower/big",
+    57442
+   ]
+  ],
+  "19eae2e046238eb6bdebc6126466c237": [
+   [
+    "YoshimiRepeatPower/icon",
+    33786
+   ],
+   [
+    "YoshimiRepeatPower/big",
+    33786
+   ]
+  ],
+  "81c4444fc1887b82e688f150f12356f1": [
+   [
+    "VeritasTrackerPower/icon",
+    91804
+   ],
+   [
+    "VeritasTrackerPower/big",
+    91804
+   ]
+  ],
+  "39df423212b11dc3cea7ff0f77f119a4": [
+   [
+    "CnCTrackerPower/icon",
+    103313
+   ],
+   [
+    "CnCTrackerPower/big",
+    103313
+   ]
+  ],
+  "cd92c09d0553a2bc97eb17bb4739c3d3": [
+   [
+    "AsunaGuardPower/icon",
+    65917
+   ],
+   [
+    "AsunaGuardPower/big",
+    65917
+   ]
+  ],
+  "15a98f7e3dbaf36e09923b88acce0d55": [
+   [
+    "KarinFinishPower/icon",
+    27697
+   ],
+   [
+    "KarinFinishPower/big",
+    27697
+   ]
+  ],
+  "ee5a56960f396ba52c04877db126a66b": [
+   [
+    "NoProblemPower/icon",
+    75520
+   ],
+   [
+    "NoProblemPower/big",
+    75520
+   ]
+  ],
+  "b242bb6cfca0102876376db544216174": [
+   [
+    "ConceptSpearPower/icon",
+    34850
+   ],
+   [
+    "ConceptSpearPower/big",
+    34850
+   ]
+  ],
+  "a9070376c47f285b191d86355b98c56c": [
+   [
+    "ConceptShieldPower/icon",
+    49690
+   ],
+   [
+    "ConceptShieldPower/big",
+    49690
+   ]
+  ],
+  "f5192a4e10e7e4ea1e4cfc92ebe6f1ea": [
+   [
+    "SpearShieldPower/icon",
+    62010
+   ],
+   [
+    "SpearShieldPower/big",
+    62010
+   ]
+  ],
+  "22f8856ff3075680170892eb934f3d0c": [
+   [
+    "DarkPsychologyPower/icon",
+    51780
+   ],
+   [
+    "DarkPsychologyPower/big",
+    51780
+   ]
+  ],
+  "22e0e20a96a2f233b4a25722624ab383": [
+   [
+    "FlameAttachPower/icon",
+    73020
+   ],
+   [
+    "FlameAttachPower/big",
+    73020
+   ]
+  ],
+  "23ca3c3ac585d4158eb6205e3a7d71e8": [
+   [
+    "PostQuestPower/icon",
+    61111
+   ],
+   [
+    "PostQuestPower/big",
+    61111
+   ]
+  ],
+  "558cc61f0481b5f62f13e3131905f1c6": [
+   [
+    "CreativeTastePower/icon",
+    71813
+   ],
+   [
+    "CreativeTastePower/big",
+    71813
+   ],
+   [
+    "CreativeTasteUpgradedPower/icon",
+    71813
+   ],
+   [
+    "CreativeTasteUpgradedPower/big",
+    71813
+   ]
+  ],
+  "f668a2250b96641f0f228f127b50e385": [
+   [
+    "RolePlayPower/icon",
+    59468
+   ],
+   [
+    "RolePlayPower/big",
+    59468
+   ]
+  ],
+  "9306247a173ce4e2b0f9ad395bc0b6cb": [
+   [
+    "PlantForeshadowPower/icon",
+    96870
+   ],
+   [
+    "PlantForeshadowPower/big",
+    96870
+   ]
+  ],
+  "2193d08dc1687a03dabe4e74dae27bf0": [
+   [
+    "CyclicNarrativePower/icon",
+    39577
+   ],
+   [
+    "CyclicNarrativePower/big",
+    39577
+   ]
+  ],
+  "b7bab16e38450ff7214881d6d6c630e7": [
+   [
+    "MomentumBreakPower/icon",
+    34085
+   ],
+   [
+    "MomentumBreakPower/big",
+    34085
+   ]
+  ],
+  "f984242bbe969ea0a696b5b986d05755": [
+   [
+    "RankUpPower/icon",
+    45170
+   ],
+   [
+    "RankUpPower/big",
+    45170
+   ]
+  ],
+  "a5d6c4fa7b8db0f7fa2cf43a738cc51e": [
+   [
+    "FellToSecondTierPower/icon",
+    41770
+   ],
+   [
+    "FellToSecondTierPower/big",
+    41770
+   ]
+  ],
+  "b99de269ed73381ac50d2a06289d49f2": [
+   [
+    "FocusPower/icon",
+    79981
+   ],
+   [
+    "FocusPower/big",
+    79981
+   ]
+  ],
+  "bea62d6a0b8b4d3c67143b1f9f2201ce": [
+   [
+    "InspirationPower/icon",
+    73132
+   ],
+   [
+    "InspirationPower/big",
+    73132
+   ],
+   [
+    "InspirationUpgradedPower/icon",
+    73132
+   ],
+   [
+    "InspirationUpgradedPower/big",
+    73132
+   ]
+  ],
+  "0713f8b5f64fcca78aed88131faf1546": [
+   [
+    "GameKingFormPower/icon",
+    79825
+   ],
+   [
+    "GameKingFormPower/big",
+    79825
+   ]
+  ],
+  "01799f0d58797d34a1a4987bec8b3160": [
+   [
+    "HelpFromManyPower/icon",
+    43460
+   ],
+   [
+    "HelpFromManyPower/big",
+    43460
+   ],
+   [
+    "HelpFromManyUpgradedPower/icon",
+    43460
+   ],
+   [
+    "HelpFromManyUpgradedPower/big",
+    43460
+   ]
+  ],
+  "e0619ac249fcb0ce0f2080d017d26ce5": [
+   [
+    "RallyAgainPower/icon",
+    43336
+   ],
+   [
+    "RallyAgainPower/big",
+    43336
+   ]
+  ],
+  "99c4f9025c416fe5d9f3f8ccf40b8931": [
+   [
+    "MyTurnPower/icon",
+    48125
+   ],
+   [
+    "MyTurnPower/big",
+    48125
+   ]
+  ],
+  "3ab38cf9105d3d850015f0204c133e0e": [
+   [
+    "SnakeGamePower/icon",
+    53097
+   ],
+   [
+    "SnakeGamePower/big",
+    53097
+   ]
+  ],
+  "79a59612af9f85de6700b8458782b29d": [
+   [
+    "MinesweeperPower/icon",
+    40250
+   ],
+   [
+    "MinesweeperPower/big",
+    40250
+   ]
+  ],
+  "7095a5e54f6b2aba0707603be1c9f7db": [
+   [
+    "ParkourPower/icon",
+    39102
+   ],
+   [
+    "ParkourPower/big",
+    39102
+   ]
+  ],
+  "d72e935737076967b1bc1a2f645c9bc0": [
+   [
+    "ShmupPower/icon",
+    64157
+   ],
+   [
+    "ShmupPower/big",
+    64157
+   ]
+  ],
+  "79e4cf8339317019ba94e193ba61d3b2": [
+   [
+    "TetrisFullHandPower/icon",
+    14876
+   ],
+   [
+    "TetrisFullHandPower/big",
+    14876
+   ]
+  ],
+  "0638197703d1560e15d4839d934e6b96": [
+   [
+    "RhythmGamePower/icon",
+    41441
+   ],
+   [
+    "RhythmGamePower/big",
+    41441
+   ]
+  ],
+  "a584e29e2f1a5c079ae834bdf8a7c0cc": [
+   [
+    "PacManPower/icon",
+    58655
+   ],
+   [
+    "PacManPower/big",
+    58655
+   ]
+  ],
+  "0afae6745266ac849257ae26fa5eba30": [
+   [
+    "PlantsNextTurnPower/icon",
+    114304
+   ],
+   [
+    "PlantsNextTurnPower/big",
+    114304
+   ]
+  ],
+  "ee7daa6d9601f75ceee78be0fc0eb30f": [
+   [
+    "DevSecretsPower/icon",
+    47654
+   ],
+   [
+    "DevSecretsPower/big",
+    47654
+   ]
+  ],
+  "7bcedbaf181dbf58dec049234840bc0c": [
+   [
+    "LearnByDoingPower/icon",
+    37069
+   ],
+   [
+    "LearnByDoingPower/big",
+    37069
+   ]
+  ],
+  "77ce87f4dcfbfca63d840be54701743f": [
+   [
+    "WinEnergyPower/icon",
+    47562
+   ],
+   [
+    "WinEnergyPower/big",
+    47562
+   ]
+  ],
+  "32c83db51a5d0be863490e9cb3ce42fc": [
+   [
+    "ShowMyStrengthPower/icon",
+    16300
+   ],
+   [
+    "ShowMyStrengthPower/big",
+    16300
+   ]
+  ],
+  "5b0f40814a662a28b54cecfaaa5ac341": [
+   [
+    "DevGreenPower/icon",
+    32169
+   ],
+   [
+    "DevGreenPower/big",
+    32169
+   ]
+  ],
+  "e63a0c2d140671a39a73971acc3d116c": [
+   [
+    "DualBladeMomoiPower/icon",
+    50880
+   ],
+   [
+    "DualBladeMomoiPower/big",
+    50880
+   ],
+   [
+    "DualBladeMomoiUpgradedPower/icon",
+    50880
+   ],
+   [
+    "DualBladeMomoiUpgradedPower/big",
+    50880
+   ]
+  ],
+  "30c276a724af1dd17a32d09b0cf152f8": [
+   [
+    "MaidWeaponPower/icon",
+    36245
+   ],
+   [
+    "MaidWeaponPower/big",
+    36245
+   ],
+   [
+    "MaidWeaponUpgradedPower/icon",
+    36245
+   ],
+   [
+    "MaidWeaponUpgradedPower/big",
+    36245
+   ]
+  ],
+  "9934f6fcc3904767f87e564ff4f4bc3e": [
+   [
+    "RepeatMovePower/icon",
+    83949
+   ],
+   [
+    "RepeatMovePower/big",
+    83949
+   ]
+  ],
+  "be879bb121ca26dac30500e53900b624": [
+   [
+    "MontagePower/icon",
+    65620
+   ],
+   [
+    "MontagePower/big",
+    65620
+   ]
+  ],
+  "9554149b675f1a191d5def51b6671ba8": [
+   [
+    "WatchOutPower/icon",
+    39046
+   ],
+   [
+    "WatchOutPower/big",
+    39046
+   ]
+  ],
+  "ab362fbdb8cf0b98793a93c7b897cc38": [
+   [
+    "YuzuEscortPower/icon",
+    29632
+   ],
+   [
+    "YuzuEscortPower/big",
+    29632
+   ]
+  ],
+  "f4df4860684838d4769c8bea91d167a6": [
+   [
+    "BurnPower/icon",
+    53455
+   ],
+   [
+    "BurnPower/big",
+    53455
+   ]
+  ],
+  "1d3f5ae629680fb432a2bd13fb622037": [
+   [
+    "BurnTurnsPower/icon",
+    35451
+   ],
+   [
+    "BurnTurnsPower/big",
+    35451
+   ]
+  ],
+  "32163ca2c8f0399bd52408faaaef8d49": [
+   [
+    "FirepowerPower/icon",
+    74603
+   ],
+   [
+    "FirepowerPower/big",
+    74603
+   ]
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+# ─── 构建产物（不纳入版本库）─────────────────────────────────────────────
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+**/*.user
+**/*.pck
+**/*.dll
+**/*.pdb
+**/*.log
+
+# Godot 导入缓存（体积大、可重建）
+STS2 Momoi/.godot/
+STS2 Momoi/STS2_Momoi/.godot/
+GodotSharp/
+
+# 本地机器相关（含本机 Steam 路径），仓库里只有 .template
+STS2 Momoi/local.props
+
+# 大体积游戏资源：图片 / 音频 / 视频（约 181MB，重新构建时需要自备）
+STS2 Momoi/STS2_Momoi/images/
+STS2 Momoi/STS2_Momoi/audio/
+STS2 Momoi/STS2_Momoi/videos/
+
+# ─── 工作区：只保留文档 / 脚本 / 数据，其余（美术源、发布包、备份、会话导出）不进库 ───
+工作区/*
+!工作区/README.md
+!工作区/_docs/
+!工作区/_scripts/
+!工作区/_data/
+!工作区/_design_dump.txt
+!工作区/STS2Momoi.xlsx
+
+# ─── 其它 ────────────────────────────────────────────────────────────────
+.idea/
+.vs/
+*.suo
+_archive/
+*.zip
+*.7z
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+{
+  "id": "STS2_Momoi",
+  "name": "游戏王小桃",
+  "pck_name": "STS2_Momoi",
+  "author": "alkaid616",
+  "description": "以「游戏王小桃」为主角的角色模组：构想、小游戏牌、火力/活力三套体系，135 张卡牌（角色池 91 + 衍生 44）、9 件遗物、3 瓶药水，以及一整套战斗动画。需要 RitsuLib。 / A character mod starring Game King Momoi: Concept, Minigame and Firepower/Vigor systems with 135 cards (91 character + 44 token), 9 relics, 3 potions and full combat animations. Requires RitsuLib.",
+  "version": "1.0.8",
+  "has_pck": true,
+  "has_dll": true,
+  "affects_gameplay": true,
+  "min_game_version": "0.111.0",
+  "dependencies": [
+    {
+      "id": "STS2-RitsuLib",
+      "min_version": "0.6.7"
+    }
+  ]
+}

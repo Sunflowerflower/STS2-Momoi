@@ -1,0 +1,1075 @@
+{
+ "total": 133,
+ "summary": {
+  "真实成品": 133
+ },
+ "shared_groups": [],
+ "need_ai": [],
+ "no_ai": [],
+ "rows": [
+  {
+   "cls": "AllsWellThatEndsWell",
+   "cn": "结果好就没问题！",
+   "size": 690944,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "AngryBirds",
+   "cn": "愤怒的小鸟",
+   "size": 548944,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "AsceticTraining",
+   "cn": "修行",
+   "size": 784347,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "BattleRoyale",
+   "cn": "绝地求生",
+   "size": 1233554,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "BaBoot",
+   "cn": "BA启动！",
+   "size": 1022774,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "BigSister",
+   "cn": "大姐头",
+   "size": 924468,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "BlueBlock",
+   "cn": "蓝方块",
+   "size": 20935,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "BottleneckBreak",
+   "cn": "瓶颈突破",
+   "size": 842035,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "BulletRain",
+   "cn": "天马行空",
+   "size": 1401513,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Catch",
+   "cn": "渔获",
+   "size": 531333,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "CnCAid",
+   "cn": "来自C&C的援护",
+   "size": 1126416,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "CollectiveWisdom",
+   "cn": "集思广益",
+   "size": 1288326,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ConceptCard",
+   "cn": "构想",
+   "size": 514960,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ConceptShield",
+   "cn": "构想之盾",
+   "size": 641909,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ConceptSpear",
+   "cn": "构想之矛",
+   "size": 814440,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ConfusedShot",
+   "cn": "激战",
+   "size": 790173,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Countermeasure",
+   "cn": "对策",
+   "size": 919128,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "CourageBoon",
+   "cn": "来自勇者的加护",
+   "size": 660991,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "CreativePain",
+   "cn": "创作的痛苦！",
+   "size": 1030692,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "CreativeTaste",
+   "cn": "创造性品味",
+   "size": 789773,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "CyclicNarrative",
+   "cn": "循环叙事",
+   "size": 755574,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "DarkPsychology",
+   "cn": "暗黑心理学",
+   "size": 718915,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Depravity",
+   "cn": "堕落",
+   "size": 497733,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "DestructionAndRebirth",
+   "cn": "毁灭与新生",
+   "size": 437517,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "DevGreen",
+   "cn": "开发者协同：绿",
+   "size": 998943,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "DevSecrets",
+   "cn": "开发秘籍",
+   "size": 1072086,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "DualBladeMomoi",
+   "cn": "双刀王小桃",
+   "size": 338655,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "DualNarrative",
+   "cn": "双线叙事",
+   "size": 792616,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Encounter",
+   "cn": "相遇",
+   "size": 453426,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "EngineeringDeptAid",
+   "cn": "来自大师们的援助",
+   "size": 1102479,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ExperienceCombo",
+   "cn": "博览群游",
+   "size": 491300,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "FiftyThousandYears",
+   "cn": "我还能绷五万年呢",
+   "size": 630869,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "FightingGame",
+   "cn": "街啪6",
+   "size": 225098,
+   "kind": "真实成品",
+   "tag": "游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "FirepowerStrike",
+   "cn": "火力爆发",
+   "size": 935381,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "FireSerpentBite",
+   "cn": "火蛇怒咬",
+   "size": 641689,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "FishingMaster",
+   "cn": "捕鱼达人！",
+   "size": 535303,
+   "kind": "真实成品",
+   "tag": "游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "FlameAttach",
+   "cn": "火焰附加",
+   "size": 485635,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "FlameBullet",
+   "cn": "曳光弹",
+   "size": 453521,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "FlowState",
+   "cn": "心流",
+   "size": 515914,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Focus",
+   "cn": "专注",
+   "size": 1235960,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ForeshadowRecovery",
+   "cn": "伏笔回收",
+   "size": 644842,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "FriendlyDuel",
+   "cn": "友谊对决",
+   "size": 1002104,
+   "kind": "真实成品",
+   "tag": "游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "GameKingForm",
+   "cn": "游戏王形态",
+   "size": 921757,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "GameLife",
+   "cn": "游戏人生",
+   "size": 595803,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "GameReview",
+   "cn": "复盘",
+   "size": 1147315,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "GearUp",
+   "cn": "整装待发",
+   "size": 698364,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "GoldMiner",
+   "cn": "黄金矿工！",
+   "size": 811503,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "GreenBlock",
+   "cn": "绿方块",
+   "size": 54528,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Grinding",
+   "cn": "开荒",
+   "size": 926066,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "HelpFromMany",
+   "cn": "得道多助",
+   "size": 989076,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "HoldingItEasy",
+   "cn": "轻松绷住",
+   "size": 885699,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "HundredPull",
+   "cn": "100连抽！",
+   "size": 383026,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ImBack",
+   "cn": "我复活啦！",
+   "size": 1179104,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Inspiration",
+   "cn": "灵感爆发",
+   "size": 635935,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ItCrackedMe",
+   "cn": "绷到我了",
+   "size": 813753,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "KinglyWay",
+   "cn": "王道",
+   "size": 1053263,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "KingsNeverMeet",
+   "cn": "王不见王",
+   "size": 526857,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "LearnByDoing",
+   "cn": "日复一日，必有精进",
+   "size": 965033,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "LinkUp",
+   "cn": "连连看！",
+   "size": 913262,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "LoseCard",
+   "cn": "LOSE！",
+   "size": 1092842,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MaidWeapon",
+   "cn": "虚拟女仆武器！",
+   "size": 845705,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MailCare",
+   "cn": "来自算术使的关爱",
+   "size": 1221142,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Match3",
+   "cn": "消消乐！",
+   "size": 1109774,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "MeetDeadline",
+   "cn": "严守截稿日！",
+   "size": 719430,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Minesweeper",
+   "cn": "扫雷",
+   "size": 488535,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "MomentumBreak",
+   "cn": "破势",
+   "size": 639837,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportAkira",
+   "cn": "来自茜的援护",
+   "size": 959618,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportAsuna",
+   "cn": "来自明日奈的援护",
+   "size": 1551581,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportChihiro",
+   "cn": "来自千寻的协助",
+   "size": 1026294,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportHare",
+   "cn": "来自晴的协助",
+   "size": 974504,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportHibiki",
+   "cn": "来自响爷的援助",
+   "size": 1085555,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportKarin",
+   "cn": "来自花凛的援护",
+   "size": 1500414,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportKotama",
+   "cn": "来自小玉的协助",
+   "size": 1039936,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportKotori",
+   "cn": "来自小鸟的援助",
+   "size": 1089707,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportMaki",
+   "cn": "来自兄弟的协助",
+   "size": 1003761,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportNeru",
+   "cn": "来自妮露的援护",
+   "size": 1191526,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportToki",
+   "cn": "来自时的援护",
+   "size": 1157127,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MomoiSupportYoshimi",
+   "cn": "来自大师的援助",
+   "size": 1027920,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Montage",
+   "cn": "蒙太奇",
+   "size": 1144951,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "MyTurn",
+   "cn": "我的回合！",
+   "size": 568108,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "NewChapter",
+   "cn": "再启新篇",
+   "size": 946558,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "OldMaid",
+   "cn": "抽鬼牌！",
+   "size": 592303,
+   "kind": "真实成品",
+   "tag": "游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "OneShotAxe",
+   "cn": "秒人斧",
+   "size": 184285,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PacMan",
+   "cn": "吃豆人！",
+   "size": 313636,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "Parkour",
+   "cn": "跑酷！",
+   "size": 773951,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "PickRed",
+   "cn": "机会难得，选红色！",
+   "size": 583887,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PlantsVsZombies",
+   "cn": "植物大战僵尸",
+   "size": 887529,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "PlantForeshadow",
+   "cn": "埋下伏笔",
+   "size": 1174920,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PlayGames",
+   "cn": "打游戏！",
+   "size": 783390,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PlayThisOne",
+   "cn": "玩玩这款！",
+   "size": 643367,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PlayWithFire",
+   "cn": "局势升温",
+   "size": 1074376,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PlotAdvance",
+   "cn": "剧情推进！",
+   "size": 703409,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PortalParadoxOne",
+   "cn": "传送门悖论其一",
+   "size": 424110,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PortalParadoxTwo",
+   "cn": "传送门悖论其二",
+   "size": 349528,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PostQuest",
+   "cn": "发布委托",
+   "size": 452037,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Prologue",
+   "cn": "序章",
+   "size": 1081802,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "PurpleBlock",
+   "cn": "紫方块",
+   "size": 66119,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Rally",
+   "cn": "集结",
+   "size": 1203287,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "RallyAgain",
+   "cn": "重整旗鼓",
+   "size": 365703,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "RankUp",
+   "cn": "终于上一档了！",
+   "size": 827231,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "RepeatMove",
+   "cn": "赖招复读",
+   "size": 426887,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "RhythmGame",
+   "cn": "节奏游戏！",
+   "size": 957213,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "RighteousIndignation",
+   "cn": "义愤填膺",
+   "size": 1251832,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "RolePlay",
+   "cn": "角色扮演！",
+   "size": 568520,
+   "kind": "真实成品",
+   "tag": "游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "RollAndShoot",
+   "cn": "翻滚射击",
+   "size": 647084,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Salvage",
+   "cn": "玩玩新作！",
+   "size": 1097414,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ScorchingStrike",
+   "cn": "油腻打击",
+   "size": 1018669,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "ScriptStrike",
+   "cn": "剧本打击",
+   "size": 749175,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "SeriousFace",
+   "cn": "严肃绷住",
+   "size": 840270,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Shmup",
+   "cn": "打灰机！",
+   "size": 282930,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "ShowMyStrength",
+   "cn": "见识下我的实力吧",
+   "size": 843229,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Slapstick",
+   "cn": "整活",
+   "size": 513688,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "SnakeGame",
+   "cn": "贪吃蛇",
+   "size": 30210,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "SpearShield",
+   "cn": "矛与盾",
+   "size": 871202,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "StayUpLate",
+   "cn": "熬夜",
+   "size": 612384,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "STS2_MomoiDefend",
+   "cn": "防御",
+   "size": 243499,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "STS2_MomoiStrike",
+   "cn": "打击",
+   "size": 312243,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "SuperMario",
+   "cn": "超级玛丽",
+   "size": 263628,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "SwordCome",
+   "cn": "剑来！",
+   "size": 488042,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "SystemAbishu",
+   "cn": "系统：阿比舒",
+   "size": 777144,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Taunt",
+   "cn": "嘲讽",
+   "size": 854084,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "Tetris",
+   "cn": "俄罗斯方块！",
+   "size": 80155,
+   "kind": "真实成品",
+   "tag": "小游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "TitForTat",
+   "cn": "针锋相对",
+   "size": 1227032,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "TravelFrog",
+   "cn": "旅行异蛙",
+   "size": 1342075,
+   "kind": "真实成品",
+   "tag": "游戏牌",
+   "edit": true
+  },
+  {
+   "cls": "UniqueIdea",
+   "cn": "独特点子",
+   "size": 695393,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "VeritasDeptAid",
+   "cn": "来自骇客们的协助",
+   "size": 995934,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "VigorStrike",
+   "cn": "试探打击",
+   "size": 1136068,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "WarmUp",
+   "cn": "热身",
+   "size": 1083923,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "WatchOut",
+   "cn": "当心误射！",
+   "size": 724075,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "WhiteAndBlack",
+   "cn": "白与黑",
+   "size": 1042554,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "WinCard",
+   "cn": "WIN！",
+   "size": 957713,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "YellowBlock",
+   "cn": "黄方块",
+   "size": 35339,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  },
+  {
+   "cls": "YuzuEscort",
+   "cn": "柚子护航！",
+   "size": 597531,
+   "kind": "真实成品",
+   "tag": "普通牌",
+   "edit": true
+  }
+ ]
+}

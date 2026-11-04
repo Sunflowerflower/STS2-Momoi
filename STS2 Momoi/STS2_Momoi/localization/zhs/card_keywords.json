@@ -1,0 +1,15 @@
+{
+  "PERIOD": "。",
+  "STS2_MOMOI_KEYWORD_GAME_CARD.title": "游戏牌",
+  "STS2_MOMOI_KEYWORD_GAME_CARD.description": "这张牌视为小游戏牌，但不会作为小游戏牌局内添加。",
+  "STS2_MOMOI_KEYWORD_GAMECARD.title": "游戏牌",
+  "STS2_MOMOI_KEYWORD_GAMECARD.description": "这张牌视为小游戏牌，但不会作为小游戏牌局内添加。",
+  "STS2_MOMOI_KEYWORD_MINIGAME_CARD.title": "小游戏牌",
+  "STS2_MOMOI_KEYWORD_MINIGAME_CARD.description": "这张牌为小游戏牌。",
+  "STS2_MOMOI_KEYWORD_MINIGAMECARD.title": "小游戏牌",
+  "STS2_MOMOI_KEYWORD_MINIGAMECARD.description": "这张牌为小游戏牌。",
+  "STS2_MOMOI_KEYWORD_SUPPORT_CARD.title": "支援牌",
+  "STS2_MOMOI_KEYWORD_SUPPORT_CARD.description": "这张牌为支援牌。",
+  "STS2_MOMOI_KEYWORD_SUPPORTCARD.title": "支援牌",
+  "STS2_MOMOI_KEYWORD_SUPPORTCARD.description": "这张牌为支援牌。"
+}

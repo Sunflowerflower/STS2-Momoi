@@ -1,0 +1,12 @@
+{
+  "TO_ADD_TO_HAND": "Choose a card to add to your hand",
+  "TO_RANDOMIZE_COST": "Choose a card to randomize its cost this turn",
+  "TO_RETAIN": "Choose cards to retain",
+  "TO_CLONE": "Choose a card to copy",
+  "DISCARD_HEADER": "Choose cards to discard",
+  "TO_CLONE_CONCEPT": "Choose 1 Concept to copy",
+  "STS2_MOMOI_LINKUP_HEADER": "Choose 2 cards to Exhaust",
+  "STS2_MOMOI_PARKOUR_HEADER": "Choose up to 1 card to add to your hand",
+  "STS2_MOMOI_ANY_TRANSFORM": "Choose any number of cards to [gold]Transform[/gold].",
+  "STS2_MOMOI_CYCLIC_NARRATIVE_HEADER": "Choose up to {Amount} cards to shuffle into your Draw Pile."
+}

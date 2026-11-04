@@ -1,0 +1,121 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+    <Import Project=".\local.props" Condition="Exists('.\local.props')"/>
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>13.0</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <EnableDynamicLoading>true</EnableDynamicLoading>
+        <RootNamespace>STS2_Momoi</RootNamespace>
+        <AssemblyName>STS2_Momoi</AssemblyName>
+        <!-- 正式版本号（设置页「诊断」卡直接读程序集版本）。改版本时同时改 STS2_Momoi.json 的 version。 -->
+        <Version>1.0.8</Version>
+        <AppOutputBase>$(MSBuildProjectDirectory)\</AppOutputBase>
+        <PathMap>$(AppOutputBase)=.\</PathMap>
+        <NoWarn>$(NoWarn);MSB3270;CS0436</NoWarn>
+
+        <GodotExportPreset>Windows Desktop</GodotExportPreset>
+        <Sts2Dir Condition="'$(Sts2Dir)' == ''">$(MSBuildProgramFiles32)\Steam\steamapps\common\Slay the Spire 2</Sts2Dir>
+        <Sts2DataDir Condition="'$(Sts2DataDir)' == ''">$(Sts2Dir)\data_sts2_windows_x86_64</Sts2DataDir>
+        <!-- 输出目录/文件名与 manifest 的 id、pck_name 对齐（项目名带空格时替换为下划线）。 -->
+        <ModIdName>$(MSBuildProjectName.Replace(' ', '_'))</ModIdName>
+        <ModOutputDir>$(Sts2Dir)\mods\$(ModIdName)\</ModOutputDir>
+        <ModPckPath>$(ModOutputDir)$(ModIdName).pck</ModPckPath>
+        <!-- 本机测试时 RitsuLib 包/构建逻辑会使用这个目录把 RitsuLib 部署到游戏 mods/STS2-RitsuLib。 -->
+        <!-- Local test builds use this directory when RitsuLib package/build logic deploys RitsuLib to game mods/STS2-RitsuLib. -->
+        <RitsuLibDeployDir Condition="'$(RitsuLibDeployDir)' == ''">$(Sts2Dir)\mods\STS2-RitsuLib</RitsuLibDeployDir>
+        <CopyModOnBuild Condition="'$(CopyModOnBuild)' == ''">true</CopyModOnBuild>
+        <RunPckExport Condition="'$(RunPckExport)' == '' and '$(DesignTimeBuild)' != 'true'">true</RunPckExport>
+        <RunPckExport Condition="'$(RunPckExport)' == ''">false</RunPckExport>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Krafs.Publicizer" Version="2.2.1" PrivateAssets="all"/>
+        <!-- 主线 RitsuLib（STS2 0.105.0+），跟踪 NuGet 最新版本。兼容分支和 manifest 版本对齐规则见 README。 -->
+        <PackageReference Include="STS2.RitsuLib" Version="*" GeneratePathProperty="true"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Publicize Include="sts2" IncludeVirtualMembers="false" IncludeCompilerGeneratedMembers="false"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="0Harmony" HintPath="$(Sts2DataDir)\0Harmony.dll" Private="True"/>
+        <Reference Include="sts2" HintPath="$(Sts2DataDir)\sts2.dll" Private="True"/>
+        <Reference Include="Steamworks.NET" HintPath="$(Sts2DataDir)\Steamworks.NET.dll" Private="True"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- 中文：排除 Godot、IDE 和构建输出目录，避免本地生成文件参与编译。 -->
+        <!-- English: Exclude Godot, IDE, and build output directories so local generated files are not compiled. -->
+        <Compile Remove=".godot/**;.idea/**;.vs/**;bin/**;obj/**"/>
+        <EmbeddedResource Remove=".godot/**;.idea/**;.vs/**;bin/**;obj/**"/>
+        <None Remove=".godot/**;.idea/**;.vs/**;bin/**;obj/**"/>
+
+        <AdditionalFiles Include="STS2_Momoi/localization/**/*.json"/>
+
+        <Compile Remove="STS2_Momoi/**"/>
+        <EmbeddedResource Remove="STS2_Momoi/**"/>
+        <None Include="local.props" />
+        <None Include="STS2_Momoi/**"/>
+        <None Include="STS2_Momoi.json"/>
+        <None Include="project.godot"/>
+        <None Include="export_presets.cfg"/>
+        <None Include=".gitignore"/>
+        <None Include="local.props.template"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="local.props" Condition="Exists('local.props')"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="STS2_Momoi\images\cards\"/>
+        <Folder Include="STS2_Momoi\images\characters\"/>
+        <Folder Include="STS2_Momoi\images\relics\"/>
+        <Folder Include="STS2_Momoi\scenes\characters\"/>
+    </ItemGroup>
+
+    <Target Name="ValidateSts2GameInstall" BeforeTargets="ResolveAssemblyReferences">
+        <Error Condition="!Exists('$(Sts2DataDir)\sts2.dll')" Text="Could not find sts2.dll under '$(Sts2DataDir)'. Copy local.props.template to local.props and set Sts2Dir/Sts2DataDir for your local game install."/>
+    </Target>
+
+    <Target Name="CopyMod" AfterTargets="Build" Condition="'$(CopyModOnBuild)' != 'false'">
+        <MakeDir Directories="$(ModOutputDir)"/>
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ModOutputDir)"/>
+        <Copy SourceFiles="$(MSBuildProjectDirectory)\$(ModIdName).json" DestinationFolder="$(ModOutputDir)"/>
+    </Target>
+
+    <Target Name="ExportPCK" AfterTargets="Build" Condition="'$(RunPckExport)' == 'true' and '$(STS2_SKIP_PCK_EXPORT)' != '1'">
+        <Error Condition="'$(GodotExe)' == '' or !Exists('$(GodotExe)')" Text="GodotExe is required for PCK export. Copy local.props.template to local.props and set GodotExe, or build with /p:RunPckExport=false."/>
+        <MakeDir Directories="$(ModOutputDir)"/>
+        <Exec WorkingDirectory="$(MSBuildProjectDirectory)" Command="&quot;$(GodotExe)&quot; --headless --path &quot;$(MSBuildProjectDirectory)&quot; --export-pack &quot;$(GodotExportPreset)&quot; &quot;$(ModPckPath)&quot;" EnvironmentVariables="STS2_SKIP_PCK_EXPORT=1"/>
+    </Target>
+
+    <!-- 校验 manifest 里 STS2-RitsuLib 的 min_version：
+         1) 必须存在；2) 不得高于编译所用的 RitsuLib 包版本（高于会让旧版玩家直接加载失败）。
+         故意「只校验、不改写」：前置最低版本是手动挑的兼容底线，不能每升一次 NuGet 就跟着抬高。
+         下限由 0.6.7 实测编译通过得出（切 0.6.7 包引用 0 错误），别随手改高。 -->
+    <Target Name="ValidateManifestDependencies" AfterTargets="Build" BeforeTargets="CopyMod"
+            Condition="'$(DesignTimeBuild)' != 'true' and '$(PkgSTS2_RitsuLib)' != ''">
+        <PropertyGroup>
+            <RitsuLibVersion>$([System.IO.Path]::GetFileName('$(PkgSTS2_RitsuLib)'))</RitsuLibVersion>
+            <ManifestFile>$(MSBuildProjectDirectory)\$(ModIdName).json</ManifestFile>
+            <_Json>$([System.IO.File]::ReadAllText('$(ManifestFile)'))</_Json>
+            <_MinSearchPattern>(?s)&quot;id&quot;\s*:\s*&quot;STS2-RitsuLib&quot;.*?&quot;min_version&quot;\s*:\s*&quot;([^&quot;]+)&quot;</_MinSearchPattern>
+            <_MinExtractPattern>(?s).*?&quot;id&quot;\s*:\s*&quot;STS2-RitsuLib&quot;.*?&quot;min_version&quot;\s*:\s*&quot;([^&quot;]+)&quot;.*</_MinExtractPattern>
+            <_HasMinVersion>$([System.Text.RegularExpressions.Regex]::IsMatch('$(_Json)', '$(_MinSearchPattern)'))</_HasMinVersion>
+            <_DeclaredMinVersion Condition="'$(_HasMinVersion)' == 'True'">$([System.Text.RegularExpressions.Regex]::Replace('$(_Json)', '$(_MinExtractPattern)', '$1'))</_DeclaredMinVersion>
+            <_MinVsPkg>0</_MinVsPkg>
+            <_MinVsPkg Condition="'$(_HasMinVersion)' == 'True'">$([System.Version]::Parse('$(_DeclaredMinVersion)').CompareTo($([System.Version]::Parse('$(RitsuLibVersion)'))))</_MinVsPkg>
+        </PropertyGroup>
+        <Error Condition="'$(_HasMinVersion)' != 'True'"
+               Text="Could not find dependencies[STS2-RitsuLib].min_version in '$(ManifestFile)'."/>
+        <Error Condition="'$(_MinVsPkg)' == '1'"
+               Text="STS2-RitsuLib min_version $(_DeclaredMinVersion) in '$(ManifestFile)' is HIGHER than the RitsuLib package we build against ($(RitsuLibVersion)). Lower the declared floor or upgrade the package."/>
+        <Message Importance="High"
+                 Text="STS2-RitsuLib min_version $(_DeclaredMinVersion) &lt;= package $(RitsuLibVersion)"/>
+    </Target>
+</Project>

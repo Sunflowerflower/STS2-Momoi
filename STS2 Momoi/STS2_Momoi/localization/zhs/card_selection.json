@@ -1,0 +1,12 @@
+{
+  "TO_ADD_TO_HAND": "选择一张牌加入你的手牌",
+  "TO_RANDOMIZE_COST": "选择一张牌在本回合随机化其耗能",
+  "TO_RETAIN": "选择要保留的牌",
+  "TO_CLONE": "选择一张牌复制",
+  "DISCARD_HEADER": "选择要丢弃的牌",
+  "TO_CLONE_CONCEPT": "选择1张构想复制",
+  "STS2_MOMOI_LINKUP_HEADER": "选择2张牌消耗",
+  "STS2_MOMOI_PARKOUR_HEADER": "选择最多一张牌加入你的手牌",
+  "STS2_MOMOI_ANY_TRANSFORM": "选择任意张牌来[gold]变化[/gold]。",
+  "STS2_MOMOI_CYCLIC_NARRATIVE_HEADER": "选择最多{Amount}张牌洗入你的抽牌堆。"
+}

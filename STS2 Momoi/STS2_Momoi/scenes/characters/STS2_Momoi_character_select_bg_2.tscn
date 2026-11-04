@@ -1,0 +1,41 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Texture2D" path="res://STS2_Momoi/images/characters/select_bg_2_blur.png" id="1_bg"]
+[ext_resource type="VideoStream" path="res://STS2_Momoi/videos/select_bg_2.ogv" id="2_video"]
+[ext_resource type="AudioStream" path="res://STS2_Momoi/audio/select_bgm_night.ogg" id="3_bgm"]
+
+[node name="STS2_MomoiCharacterSelectBg2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Backdrop" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 2560.0
+offset_bottom = 1200.0
+mouse_filter = 2
+texture = ExtResource("1_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Video" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_left = 419.5
+offset_top = 0.0
+offset_right = 2140.5
+offset_bottom = 1200.0
+mouse_filter = 2
+stream = ExtResource("2_video")
+autoplay = true
+loop = true
+expand = true
+
+[node name="SelectBgm" type="AudioStreamPlayer" parent="." groups=["momoi_select_bgm"]]
+stream = ExtResource("3_bgm")
+volume_db = -80.0
+autoplay = true
+bus = &"SFX"
